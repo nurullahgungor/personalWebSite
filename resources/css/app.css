@@ -1,0 +1,17 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.noise-background-fixed {
+    z-index: -1001;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 13, 33, .88), rgba(0, 13, 33, .88)), url(https://assets-global.website-files.com/652a81c…/652a81c…_noise.gif);
+    background-position: 0 0, 0 0;
+    background-size: auto, auto;
+    position: fixed;
+    top: 0%;
+    bottom: auto;
+    left: 0%;
+    right: auto;
+}
