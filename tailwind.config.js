@@ -9,6 +9,14 @@ export default {
     container: {
       center: true,
     },
+    fontFamily: {
+      'audiowide': ['sans-serif', 'audiowide'],
+      'tilt-neon': ["Tilt Neon", 'sans-serif']
+    },
+    fontWeight: {
+      bold: '700',
+    }
+
   },
   plugins: [],
 }
