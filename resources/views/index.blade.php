@@ -32,6 +32,7 @@
             @include('recent-projects')
             @include('think-future')
             @include('transform-business')
+            @include('testominal-comments')
         </div>
     </body>
 </html>
