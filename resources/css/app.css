@@ -1,3 +1,7 @@
+body{
+  color: white;
+}
+
 p{
   font-family: "Tilt Neon", sans-serif;
   font-optical-sizing: auto;
@@ -11,8 +15,10 @@ h2{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
+    font-size: .8em;
     font-style: normal;
     font-variation-settings: "slnt" 0;
+    text-transform: uppercase;
 }
 
 
@@ -28,4 +34,25 @@ h2{
   bottom: auto;
   left: 0%;
   right: auto;
+}
+.services-background-image-glow {
+  z-index: -1;
+  width: 100%;
+  height: 38em;
+  filter: saturate(200%) blur(20px);
+  object-fit: cover;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: auto;
+  opacity: 1;
+}
+.services-background-image {
+  width: 100%;
+  height: 38em;
+  object-fit: cover;
+  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg);
+  background-position: 0 0;
+  background-size: auto;
 }
