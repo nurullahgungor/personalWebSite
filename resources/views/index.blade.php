@@ -12,7 +12,7 @@
         <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Inter:wght@100..900&family=Tilt+Neon&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bebas+Neue&family=Inter:wght@100..900&family=Libre+Barcode+128+Text&family=Tilt+Neon&display=swap" rel="stylesheet">
 
         <!-- Styles -->
         <style>
@@ -30,6 +30,8 @@
             @include('profile')
             @include('welcome')
             @include('recent-projects')
+            @include('think-future')
+            @include('transform-business')
         </div>
     </body>
 </html>

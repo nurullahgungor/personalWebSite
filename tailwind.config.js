@@ -11,10 +11,12 @@ export default {
     },
     fontFamily: {
       'audiowide': ['sans-serif', 'audiowide'],
-      'tilt-neon': ["Tilt Neon", 'sans-serif']
+      'tilt-neon': ['"Tilt Neon"', 'sans-serif'],
+      'libre-barcode' : ["'Libre Barcode 128 Text'", 'system-ui']
     },
     fontWeight: {
       bold: '700',
+      normal: '400',
     }
 
   },

@@ -1,6 +1,6 @@
 <div class="grid grid-cols-2 pb-24">
-    <div class="text-white text-xl">
-        <h2 class="audiowide">WELCOME</h2>
+    <div class="text-white">
+        <h2>WELCOME</h2>
     </div>
     <div class="text-white">
     <p class="text-xl tracking-wide leading-loose" 
