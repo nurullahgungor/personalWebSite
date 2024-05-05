@@ -1,4 +1,4 @@
-<div class="conteiner w-full">
+<div class="conteiner w-full pb-28">
     <h2 class="uppercase py-10">testominal</h2>
     <div class="grid grid-cols-11">
         <div class="col-start-1 col-end-6 py-20">

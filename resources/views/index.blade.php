@@ -33,6 +33,8 @@
             @include('think-future')
             @include('transform-business')
             @include('testominal-comments')
+            <!-- @include('blog-index') -->
+            @include('footer')
         </div>
     </body>
 </html>
