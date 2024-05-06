@@ -16,11 +16,15 @@ jobs:
     - name: Install dependencies
       run: composer install --no-dev
 
+    - name: Set up Node
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+        cache: 'npm'
     - name: Install dependencies
-      run: |
-        composer install --no-dev
-        npm install
-        npm run prod
+      run: npm install
+    - name: Build
+      run: npm run build
 
     - name: Build application
       run: php artisan optimize
