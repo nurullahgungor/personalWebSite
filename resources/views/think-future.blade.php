@@ -14,19 +14,19 @@
     <div class="grid grid-cols-11 justify-between mb-20">
         <!-- TODO: Foreach Column -->
         <div class="py-20 col-start-1 col-end-6">
-            <div class="font-libre-barcode text-6xl">Branding Design</div>
+            <div class="font-libre-barcode text-6xl pb-5">Branding Design</div>
             <span class="">Our branding design service helps establish a unique identity for your business, building recognition and trust with your audience.</span>
         </div>
         <div class="py-20 col-start-7 col-end-12">
-            <div class="font-libre-barcode text-6xl">Branding Design</div>
+            <div class="font-libre-barcode text-6xl pb-5">Branding Design</div>
             <span class="">Our branding design service helps establish a unique identity for your business, building recognition and trust with your audience.</span>
         </div>
         <div class="py-20 col-start-1 col-end-6">
-            <div class="font-libre-barcode text-6xl">Branding Design</div>
+            <div class="font-libre-barcode text-6xl pb-5">Branding Design</div>
             <span class="">Our branding design service helps establish a unique identity for your business, building recognition and trust with your audience.</span>
         </div>
         <div class="py-20 col-start-7 col-end-12">
-            <div class="font-libre-barcode text-6xl">Branding Design</div>
+            <div class="font-libre-barcode text-6xl pb-5">Branding Design</div>
             <span class="">Our branding design service helps establish a unique identity for your business, building recognition and trust with your audience.</span>
         </div>
         <div class="flex col-start-11 justify-between">
