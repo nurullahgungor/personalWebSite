@@ -1,7 +1,7 @@
 on: push
 name: 🚀 Deploy website on push
 jobs:
-  web-deploy:
+  # web-deploy:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
@@ -29,9 +29,9 @@ jobs:
     - name: Build application
       run: php artisan optimize
 
-    - name: 📂 Sync files
+    # - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
       with:
-        server: ${{ secrets.SERVER_IP }}
-        username: ${{ secrets.FTP_USER_NAME }}
-        password: ${{ secrets.FTP_USER_PASSWORD }}
+        # server: ${{ secrets.SERVER_IP }}
+        # username: ${{ secrets.FTP_USER_NAME }}
+        # password: ${{ secrets.FTP_USER_PASSWORD }}
